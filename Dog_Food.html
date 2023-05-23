@@ -59,11 +59,16 @@
         .insta{
             text-align: center;
         }
-        .imgs>div{
-            display: inline-block;
-            height: 300px;
-            width: 297px;
+        .imgs{
+            display: flex;
             background-color: white;
+        }
+        .DemoDog{
+            margin: auto;
+        }
+        .DemoDog>img{
+            height: 300px;
+            width: 250px;
         }
         .search{
             text-align: center;
@@ -150,11 +155,13 @@
             padding: 0% 28%;
         }
         .IMG{
-            width: 80%;
-            padding: 0% 4% 0% 1%;
+            width: 100%;
+            padding: 0%;
+            display: flex;
         }
         .IMG img{
-            margin:4% 8% 4% 7%;
+            padding: 2%;
+            margin:auto;
         }
     </style>
 </head>
@@ -266,11 +273,11 @@
             <div><h4>@VisionaryPetFoods</h4></div>
         </div>
         <div class="imgs">
-            <div><img src="./Assets/01.jpeg" alt="Dog" height="100%" width="100%"></div>
-            <div><img src="./Assets/02.jfif" alt="Dog" height="100%" width="100%"></div>
-            <div><img src="./Assets/03.jfif" alt="Dog" height="100%" width="100%"></div>
-            <div><img src="./Assets/04.jfif" alt="Dog" height="100%" width="100%"></div>
-            <div><img src="./Assets/05.jpg" alt="Dog" height="100%" width="100%"></div>
+            <div class="DemoDog"><img src="./Assets/01.jpeg" alt="Dog" height="100%" width="100%"></div>
+            <div class="DemoDog"><img src="./Assets/03.jfif" alt="Dog" height="100%" width="100%"></div>
+            <div class="DemoDog"><img src="./Assets/04.jfif" alt="Dog" height="100%" width="100%"></div>
+            <div class="DemoDog"><img src="./Assets/05.jpg" alt="Dog" height="100%" width="100%"></div>
+            <div class="DemoDog"><img src="./Assets/02.jfif" alt="Dog" height="100%" width="100%"></div>
         </div>
         <div class="search">
             <div><img src="" alt=""></div>
